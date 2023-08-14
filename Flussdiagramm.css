@@ -1,18 +1,35 @@
 .center {
+    font-size: 350%;
+    color: #BF9191;
     text-align: center;
     font-family: Monospace;
-    align-items: center;
+
 }
+a{
+    width: 40%;
+}
+
 
 body{
     background-color:#DCB9B9;
 }
-h1{
-    font-size: 320%;
-}
+
 .image {
-   display: flex;
+    display: flex;
     justify-content: space-around;
     width: 100%;
+}
+    .icon {
+        width: 15%;
+    }
+hr {
+    height: 2px;
+    background-color: #BF9191;
+    border: none;
+    width: 90%;
+}
+.header {
+    display: flex;
 
 }
+

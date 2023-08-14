@@ -8,7 +8,9 @@ h1 {
     font-family: monospace;
     font-size: 350%;
     border:none;
-
+}
+a{
+    width: 45%;
 }
 
 .list {
@@ -52,3 +54,9 @@ hr {
     width: 200px;
 }
 
+.icon {
+    width: 15%;
+}
+.header {
+    display: flex;
+}

@@ -28,4 +28,13 @@ h2 {
     align-items: center;
 }
 
+.header {
+    display: flex;
+}
 
+.icon {
+    width: 15%;
+}
+a{
+    width: 25%;
+}

@@ -55,3 +55,12 @@ img{
     display: inline-block;
     text-align: left;
 }
+.icon {
+    width: 15%;
+}
+.header {
+    display: flex;
+}
+a{
+    width: 45%;
+}
