@@ -7,3 +7,51 @@ p{
 color:#4A66C3;
     font-size: 200%;
 }
+h1{
+    text-align: center;
+    color: #4A66C3;
+    font-family: monospace;
+    font-size: 350%;
+    border:none;
+}
+hr {
+    height: 2px;
+    background-color: #4A66C3;
+    border: none;
+    width: 90%;
+}
+li {
+    width: auto;
+    color: #4A66C3;
+    font-family: monospace;
+    font-size: 180%;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+ul {
+    display: inline-block;
+    text-align: left;
+    align-items: center;
+    display: flex;
+}
+img{
+    width: 200px;
+    align-items: center;
+}
+
+.image {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.schwierigkeiten {
+    text-align: center;
+}
+
+.liste {
+    display: inline-block;
+    text-align: left;
+}
