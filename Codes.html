@@ -20,8 +20,12 @@
      <ul>
          <li>
              <h4>
-                 In den ersten Zeilen generierten wir die 8 Farben, die in unserem Mastermind existieren.
-
+                 8 Farben generieren
+             </h4>
+         </li>
+         <li>
+             <h4>
+                 Scanner erstellen
              </h4>
          </li>
     </ul>
@@ -32,27 +36,35 @@
         <ul>
            <li>
                <h4>
-                   Zuerst rufen wir die Startmethode ab.
-                   In der wird das Spiel mit enter gestartet und mit dem Buchstaben<br>I kann man die Spielanleitung anfordern.
-
+                   Startmethode abrufen
+                   (Spiel starten, mit I Spielanleitungen abrufen.
                </h4>
-           </li>
-           <li>
-           <h4>
-
-
-
-           </h4>
            </li>
             <li>
                 <h4>
-
-
-
-
+                    Zufällige Farben in Methode generieren und abspeichern.
                 </h4>
             </li>
-
+            <li>
+                <h4>
+                    Rundenzähler erstellen, so das Spiel max. 12 Runden dauerrt.
+                </h4>
+            </li>
+            <li>
+                <h4>
+                    Inhalt des Arrays der generierten Farben kopieren, damit beim überschreiben nichts verloren geht.
+                </h4>
+            </li>
+            <li>
+                <h4>
+                    Anzahl richtige Farben am richtigen Platz und richtige Farben am falschen platz ausgeben.
+                </h4>
+            </li>
+            <li>
+                <h4>
+                    boolean playagain abrufen, falls Spieler nochmals spielen will.
+                </h4>
+            </li>
         </ul>
 
     </div>
@@ -61,10 +73,18 @@
         <ul>
             <li>
                 <h4>
-
-
-
-
+                    Zufällige Farbe generieren
+                </h4>
+            </li>
+            <li>
+                <h4>
+                    Abgleichen ob diese Farbe schon zweimal abgespeichert wurde, falls ja neue Farbe generieren.<br>
+                    Falls nicht abspeichern und bei samecolor plus eins rechenen.
+                </h4>
+            </li>
+            <li>
+                <h4>
+                    gibt generierte Farben  zurück nach oben in den Code um nacher den User input zu korriegieren.
                 </h4>
             </li>
         </ul>
@@ -75,10 +95,12 @@
         <ul>
             <li>
                 <h4>
-
-
-
-
+                    Methode generiert Zufällige Zahl und wird in der Methode oben an genutzt um zufällige Farbe zu generieren
+                </h4>
+            </li>
+            <li>
+                <h4>
+                    Methode startagain fragt den Spieler ob er nochmals spielen will.<br> Der Scanner erkennt die Antwort bei nein beendet er den Code bei ja startet der code von vorne.
                 </h4>
             </li>
         </ul>
@@ -89,10 +111,8 @@
         <ul>
             <li>
                 <h4>
-
-
-
-
+                    Die anzahl farben an richtiger stelle wird überprüfed, ist die zahl gleich 4 gibt es aus das der Spieler gewonnen hat.<br>
+                    falls nicht wird die anzahl runden überprüft bei 12 runden gibt die Methode aus das der Spieler verloren hat.
                 </h4>
             </li>
         </ul>
@@ -103,10 +123,15 @@
         <ul>
             <li>
                 <h4>
-
-
-
-
+                    Die Methode wrongPlace kontrolliert ob die im User input gespeicherten Farben richtige Farben sind,<br>
+                    falls ja dann überschreibt es die Farbe in den kopierten generierten Farben, damit keine Zahl doppelt gezählt wird.
+                </h4>
+            </li>
+            <li>
+                <h4>
+                    Die Methode correctPlace kontroliert ob die im User input eingegebenen Farben an der richtigen stellen stehen.<br>
+                    Falls ja wird die kopierte Farbe überschrieben, damit keine Zahl doppelt gezählt wird oder beim abgleichen,<br>
+                    mit der Methode wrongPlace nicht nochmals gezählt wird.
                 </h4>
             </li>
         </ul>
@@ -117,10 +142,10 @@
         <ul>
             <li>
                 <h4>
-
-
-
-
+                    Methode colorReader bittet den Spieler zuerst eine Farbe einzugeben.<br>
+                    Anschliessend wird die eingegebene Farbe im User input mit jeder Stelle (s) des Arrays color abgeglichen ob die Farbe überhaupt existiert.<br>
+                    dabei wird nicht auf die Gross- und Kleinschreibung geachtet. Und jeder Abstand wird ignoriert, somit werden nur richtige Farben angenomen<br>
+                    und der Spieler kann nicht eine ungültige Farbe einloggen. Bei falschen Farben wird der Spieler per Fehlermeldung informiert, dass die eingegebene Farbe nicht existiert.
                 </h4>
             </li>
         </ul>
