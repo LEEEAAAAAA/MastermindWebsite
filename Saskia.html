@@ -3,47 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Mastermind.2Seite</title>
-<style>
-    .button {
-        border: 20px;
-        color: white;
-        padding: 40px 200px;
-        width: 40px;
-        length: 200px;
-        text-align: left;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 20px;
-        margin: 20px 20px;
-        cursor: pointer;
-    }
-
-    .button1{background-color:#a6c0aa ;
-    position:absolute ;top:20% ; right:40% ;}
-
-    .button2{background-color:#a6c0aa ;
-        position:absolute ;top:35% ; right:40% ;}
-
-    .button3{background-color:#a6c0aa ;
-        position:absolute ;top:50% ; right:40% ;}
-
-    .button4{background-color:#a6c0aa ;
-        position:absolute ;top:65% ; right:40% ;}
-
-
-
-</style>
+    <link rel="stylesheet" href="Saskia.css">
 </head>
 <body>
-<button type="button">Click Me!</button> <br>
-<button class="button button1">Vorgehen</button><br>
-<button class="button button2">Flussdiagramm</button><br>
-<button class="button button3">Code</button><br>
-<button class="button button4">Fazit</button><br>
+<h2> Um mehr Informationen zu erhalten, klicken Sie auf die einzelnen Buttons.<br> Die führen Sie auf eine weitere Seite zum jeweiligen thema.</h2>
+    <div class="buttons">
+        <a class="link" href="Vorgehen.html">
+            <button class="button button1"><p class="text">Vorgehen</p></button></a><br>
+        <a class="link" href="Flussdiagramm.html">
+            <button class="button button2"><p class="text">Flussdiagramm</p></button></a><br>
+        <a class="link" href="Codes.html">
+            <button class="button button3"><p class="text">Code</p></button></a><br>
+        <a class="link" href="Fazit.html">
+            <button class="button button4"><p class="text">Fazit</p></button></a><br>
+    </div>
 
 
-<form action="codes.html">
-    <button class ="button button3"> Code </button>
-</form>
+
 </body>
 </html>
