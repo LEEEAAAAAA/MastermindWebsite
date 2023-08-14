@@ -5,3 +5,7 @@ img{
     display: flex;
     margin: 20px;
 }
+body {background-color: #ffebef;}
+h4{
+    color: #ff3765;
+}
