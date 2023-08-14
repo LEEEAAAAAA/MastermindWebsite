@@ -1,0 +1,18 @@
+.center {
+    text-align: center;
+    font-family: Monospace;
+    align-items: center;
+}
+
+body{
+    background-color:#DCB9B9;
+}
+h1{
+    font-size: 320%;
+}
+.image {
+   display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
