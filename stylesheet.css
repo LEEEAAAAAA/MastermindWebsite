@@ -1,3 +1,55 @@
+body{
+    background-color: #9FDFDF;
+}
+
+h1 {
+    text-align: center;
+    color: #4F9F9F;
+    font-family: monospace;
+    font-size: 350%;
+    border:none;
+
+}
+
+.list {
+    text-align: center;
+}
+
+ol {
+    display: inline-block;
+    text-align: left;
+}
+
+li {
+    width: auto;
+    color: #4F9F9F;
+    font-family: monospace;
+    font-size: 200%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+hr {
+    height: 2px;
+    background-color: #4F9F9F;
+    border: none;
+    width: 90%;
+}
+.Flussdiagramm {
+    width: 200px;
+}
+.Website {
+    width: 200px;
+}
+.program {
+    width: 200px;
+}
+.Presentation {
+    width: 200px;
+}
+.Github {
+    width: 200px;
+}
 
 .center {
     text-align: center;
