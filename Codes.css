@@ -1,3 +1,19 @@
+
+
+h1 {
+    text-align: center;
+    color: #E676BD;
+    font-family: monospace;
+    font-size: 400%;
+    border:none;
+}
+hr {
+    height: 2px;
+    background-color: #E676BD;
+    border: none;
+    width: 90%;
+}
+
 img{
     width: 800px;
 }
@@ -5,10 +21,10 @@ img{
     display: flex;
     margin: 20px;
 }
-body {background-color: #ffebef;}
+body {background-color: #EAC9EE;}
 h4{
-    color: #ff3765;
+    color: #E676BD;
 }
 ul{
-    color: #ff3765;
+    color: #E676BD;
 }
