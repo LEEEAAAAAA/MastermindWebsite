@@ -28,3 +28,12 @@ h4{
 ul{
     color: #E676BD;
 }
+.icon {
+    width: 15%;
+}
+.header {
+    display: flex;
+}
+a{
+    width: 45%;
+}
