@@ -27,10 +27,6 @@ h2 {
     flex-direction: column;
     align-items: center;
 }
-
-.icon {
-    width: 25%;
-}
 .green{
     width: 25%;
 }
@@ -38,8 +34,20 @@ h2 {
     width: 45%;
 }
 .icon {
-    width: 50%;
+    width: 22.5%;
 }
 .header {
     display: flex;
+}
+
+.header-icon {
+    position: absolute;
+}
+
+.header-text {
+    width: 100vw;
+}
+
+.button:hover {
+    background-color: #008080;
 }
