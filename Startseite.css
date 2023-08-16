@@ -4,11 +4,12 @@
     font-family: Monospace;
 }
 body{
-    background-color:#B793A4;
+    background-color:#D2ACE5;
 }
 h1{
     font-family: monospace;
     font-size: 350%;
+    color: #B756E8;
 }
 img {
     display: block;
@@ -25,10 +26,12 @@ img {
 }
 p{
     font-size: 160%;
+    color: #B756E8;
 }
 button{
     width: 100%;
     height: 100%;
-    background-color:sandybrown;
+    background-color:#B756E8;
     font-family: Monospace;
 }
+

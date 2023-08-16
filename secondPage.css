@@ -28,13 +28,18 @@ h2 {
     align-items: center;
 }
 
+.icon {
+    width: 25%;
+}
+.green{
+    width: 25%;
+}
+.House {
+    width: 45%;
+}
+.icon {
+    width: 50%;
+}
 .header {
     display: flex;
-}
-
-.icon {
-    width: 15%;
-}
-a{
-    width: 25%;
 }
